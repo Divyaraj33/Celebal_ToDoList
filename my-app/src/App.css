@@ -1,0 +1,41 @@
+.todo-list {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+*{
+  background-color: rgb(140, 140, 202);
+}
+.task {
+  background: #f4f4f4;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input{
+  background-color: white;
+}
+
+.task button {
+  margin-left: 5px;
+}
+button:hover{
+  background-color: rgb(72, 72, 143);
+  cursor: pointer;
+}
+h1{
+  background-color: gainsboro;
+  text-shadow: 2px 2px rgb(72, 72, 143);
+}
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+input {
+  width: 70%;
+}
+
